@@ -1,4 +1,6 @@
 .header{
+    display: flex;
+    justify-content: space-between;
     background-color: orange;
     color:white;
         }
@@ -6,5 +8,18 @@
     background-color: silver;
 }
 .container{
-    margin:"0px";
+    margin:0px;
+}
+.menu{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+.menu li a{
+    margin:5px;
+    color: white;
+    text-decoration: none;
+}
+#home{
+    margin:5px;
 }
